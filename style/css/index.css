@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Roboto:ital@0;1&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #eee2fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #eee2fd;
+  width: 100vw;
+}
+
+.navBar {
+  width: 100vw;
+  height: 65px;
+  position: fixed;
+  top: 0;
+  background-color: rgba(232, 249, 255, 0.9);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.navBox {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.name a {
+  height: 65px;
+  color: #000;
+  display: block;
+  float: left;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Satisfy", cursive;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.top {
+  width: 100vw;
+  height: 410px;
+  background-color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top .topBox {
+  width: 45vw;
+}
+
+.top .topBox h1 {
+  font-size: 3rem;
+  font-family: "Alata", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 20px;
+}
+
+.top .topBox p {
+  direction: rtl;
+  width: 45vw;
+  font-size: 1.2rem;
+  font-family: "Alata", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.gallery {
+  width: 60vw;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.gallery h3 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Alata", serif;
+  font-weight: 400;
+  padding-top: 100px;
+}
+
+.gallery .projects {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery .projects .cards {
+  cursor: pointer;
+  margin: 20px;
+  display: block;
+  width: 350px;
+  height: 500px;
+  background-color: #e8f9ff;
+  border-radius: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+.gallery .projects .cards:hover {
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.3);
+}
+
+.gallery .projects .cards .imgBox {
+  width: 350px;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+
+.gallery .projects .cards .imgBox img {
+  width: 350px;
+  height: 200px;
+  transition: 0.5s ease-in-out;
+}
+
+.gallery .projects .cards h4 {
+  font-family: "Satisfy", cursive;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 10px;
+  color: #000;
+}
+
+.gallery .projects .cards .description {
+  height: 170px;
+  font-family: "Alata", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  color: #000;
+  padding: 10px;
+}
+
+.gallery .projects .cards div {
+  background-color: #c4d9ff;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.gallery .projects .cards div p {
+  padding: 10px;
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-size: 1rem;
+  color: #000;
+}
+
+.gallery .projects .cards:hover .imgBox img {
+  scale: 1.2;
+}
+
+@media (max-width: 1800px) {
+  .gallery {
+    width: 100vw;
+  }
+
+  .projects {
+    width: 75vw;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .gallery {
+    width: 100vw;
+  }
+
+  .projects {
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 960px) {
+  .projects {
+    flex-direction: column;
+  }
+  .top .topBox h1 {
+    font-size: 2.5rem;
+  }
+
+  .top .topBox {
+    width: 80vw;
+  }
+
+  .top .topBox p {
+    width: 80vw;
+  }
+}
