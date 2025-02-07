@@ -85,4 +85,4 @@ git clone https://github.com/AdirDahari/Advance-Vanilla-JavaScript.git
 
 Adir Dahari - Adir10500@gmail.com
 
-Project Link: [https://github.com/yourusername/js-games-collection](https://github.com/yourusername/js-games-collection)
+Project Link: https://adirdahari.github.io/Advance-Vanilla-JavaScript/
