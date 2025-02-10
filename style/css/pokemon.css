@@ -103,23 +103,9 @@ img {
   text-align: left;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 600px) {
   .container {
-    width: 90vw;
-  }
-}
-@media (max-width: 800px) {
-  .container {
-    width: 100vw;
-  }
-  .card {
-    width: 150px;
-    height: 250px;
-  }
-  img {
-    margin-top: 20px;
-    width: 100px;
-    height: 100px;
+    width: 80vw;
   }
   .card-front,
   .card-back {
